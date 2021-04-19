@@ -14,13 +14,8 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	int	i;
+	const char	al = '\n';
 
-	i = 0;
-	while (s[i] = '\0')
-	{
-		ft_putchar_fd(s[i], fd);
-		i++;
-	}
-	ft_putchar_fd('\0', fd);
+	write(fd, s, ft_strlen(s));
+	write(fd, &al, 1);
 }
