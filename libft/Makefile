@@ -8,6 +8,7 @@ SRCS = 	ft_atoi.c \
 	ft_isascii.c \
 	ft_isdigit.c \
 	ft_isprint.c \
+	ft_itoa.c \
 	ft_memccpy.c \
 	ft_memset.c \
 	ft_memchr.c \
@@ -28,6 +29,7 @@ SRCS = 	ft_atoi.c \
 	ft_strncmp.c \
 	ft_strnstr.c \
 	ft_strrchr.c \
+	ft_substr.c \
 	ft_tolower.c \
 	ft_toupper.c \
 
